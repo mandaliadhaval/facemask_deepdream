@@ -1,0 +1,25 @@
+- for Deep Dream
+pip install https://pypi.python.org/packages/da/06/bd3e241c4eb0a662914b3b4875fc52dd176a9db0d4a2c915ac2ad8800e9e/dlib-19.7.0-cp36-cp36m-win_amd64.whl#md5=b7330a5b2d46420343fbed5df69e6a3f
+
+- install face_recognition, numpy, pillow, tensorflow, cmake, face_recognition, nltk
+
+- for YOLO: https://github.com/devicehive/devicehive-video-analysis
+
+- https://nlp.stanford.edu/software/stanford-ner-2018-02-27.zip
+https://nlp.stanford.edu/software/stanford-postagger-full-2018-02-27.zip
+https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-setup-3.05.02-20180621.exe
+https://nlp.stanford.edu/software/stanford-parser-full-2018-10-17.zip
+
+- for setting up ocr 
+https://blog.manash.me/configuring-stanford-parser-and-stanford-ner-tagger-with-nltk-in-python-on-windows-f685483c374a
+
+1)extract all nlp modules.
+2)install ocr.
+3)set nlp  modules path in environment variable.
+4)set "Tesseract-OCR" path in environment variable.
+5)use "nltk.download()" to install required packages.
+6)Add "STANFORD_MODELS" to environment variables with path to "Drive:\path\to\stanford-postagger-2015-12-09\models" "Drive:\path\to\stanford-ner-2015-12-09\classifiers"
+6)run deep_dreaming.py using conda developed environment
+7)run eval_img.py 
+8)run ocr_final.py
+9)run NLP.py
